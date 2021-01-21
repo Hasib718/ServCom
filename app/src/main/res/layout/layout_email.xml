@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Created by S M Al Hasib on 1/21/21 5:38 PM
+  ~ Copyright (c) 2021 . All rights reserved.
+  ~ Last modified 1/21/21 5:38 PM
+  -->
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/to"
+                android:id="@+id/receiverEmail"
+                android:inputType="textEmailAddress"
+                android:gravity="top" />
+
+        <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/subject"
+                android:id="@+id/subject"
+                android:layout_marginTop="10dp"
+                android:inputType="textEmailSubject"
+                android:gravity="top" />
+
+        <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:hint="@string/body"
+                android:id="@+id/body"
+                android:layout_marginTop="10dp"
+                android:inputType="textLongMessage"
+                android:gravity="top"
+                android:background="@null" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

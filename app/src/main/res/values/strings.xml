@@ -1,0 +1,25 @@
+<!--
+  ~ Created by S M Al Hasib on 1/21/21 5:38 PM
+  ~ Copyright (c) 2021 . All rights reserved.
+  ~ Last modified 1/21/21 5:29 PM
+  -->
+
+<resources>
+    <string name="app_name">ServCom</string>
+    <string name="ip_address">IP Address</string>
+    <string name="recent_addresses">Recent Addresses</string>
+    <string name="add">Add</string>
+    <string name="make_a_call">Make a call</string>
+    <string name="send_a_message">Send a message</string>
+    <string name="send_a_email">Send a email</string>
+    <string name="call">Call</string>
+    <string name="message">Message</string>
+    <string name="email">Email</string>
+    <string name="enter_phone_number">Enter Phone Number</string>
+    <string name="make_call">Make Call</string>
+    <string name="to">To</string>
+    <string name="subject">Subject</string>
+    <string name="body">Body</string>
+    <string name="share_email_title">Send Email</string>
+    <string name="cell_number">Cell Number</string>
+</resources>
